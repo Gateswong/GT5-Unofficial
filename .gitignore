@@ -1,11 +1,10 @@
 .gradle
 .settings
 /.idea/
-.shelf
+/.vscode/
 /run/
 /build/
 /eclipse/
-.vscode
 .classpath
 .project
 /bin/
@@ -29,7 +28,5 @@ whitelist.json
 *.iws
 src/main/resources/mixins.*.json
 *.bat
-/src/main/generated/
-/src/test/generated/
-.DS_Store
-classes
+*.DS_Store
+!gradlew.bat
